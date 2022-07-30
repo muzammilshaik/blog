@@ -13,7 +13,7 @@ DefaultContentLanguageInSubdir = true
     [languages.en.params]
       introTitle = "Hey! I'm Muzammil Shaik"
       introSubtitle = "24 y/o System Engineer who loves to solve the CTF challangs"
-      introPhoto = "/my-pic.jpg"
+      introPhoto = "my-pic.jpg"
       logo = "HACKSTIP"
     [[languages.en.menu.main]]
         name = "Blog"
