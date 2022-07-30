@@ -1,6 +1,6 @@
 baseurl = "https://blist.vercel.app"
 metaDataFormat = "yaml"
-title = "ROOT"
+title = "Blog"
 theme = "blist"
 
 DefaultContentLanguage = "en"
@@ -14,7 +14,7 @@ DefaultContentLanguageInSubdir = true
       introTitle = "Hey! I'm Muzammil Shaik"
       introSubtitle = "24 y/o System Engineer who loves to solve the CTF challangs"
       introPhoto = "my-pic.jpg"
-      logo = "HACKSTIP"
+      logo = "Blog"
     [[languages.en.menu.main]]
         name = "Blog"
         url = "blog"
@@ -56,15 +56,15 @@ DefaultContentLanguageInSubdir = true
 
 [params.homepage.social]
   # Global params xommon for both languages
-  title = "Follow me"
-  description = "I work on everything coding and tweet developer memes"
-  twitter = "https://twitter.com/"
-  linkedin = "https://linkedin.com/in/"
-  xing = "https://www.xing.com/profile/"
-  github = "https://github.com/"
-  medium = "https://medium.com/"
-  reddit = "https://reddit.com/"
-  dribbble = "https://dribbble.com/"
+#  title = "Follow me"
+#  description = "I work on everything coding and tweet developer memes"
+#  twitter = "https://twitter.com/"
+#  linkedin = "https://linkedin.com/in/"
+#  xing = "https://www.xing.com/profile/"
+#  github = "https://github.com/"
+#  medium = "https://medium.com/"
+#  reddit = "https://reddit.com/"
+#  dribbble = "https://dribbble.com/"
 
 [[menu.main]]
   name = "About"
