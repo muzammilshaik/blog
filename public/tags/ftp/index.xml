@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ftp on Blog</title>
+    <link>https://blist.vercel.app/tags/ftp/</link>
+    <description>Recent content in ftp on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 24 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blist.vercel.app/tags/ftp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Forge</title>
+      <link>https://blist.vercel.app/blog/forge/</link>
+      <pubDate>Mon, 24 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://blist.vercel.app/blog/forge/</guid>
+      <description>Introduction Enumeration Ftp accesss Esclating Privileges Introduction Today we will learn about the server-side request forgery attack. While enumerating, we discovered the FTP credentials through which we gain access to the server via ssh and the root using the Python library. With that stated, let&amp;rsquo;s get started. As is customary, we will begin by scanning the server for open ports using the namp. We only have two open ports: SSH (OpenSSH) and apache (for the webpage).</description>
+    </item>
+    
+  </channel>
+</rss>
