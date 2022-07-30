@@ -11,6 +11,7 @@ thumbnail: forge/img.png
 ## Introduction
 Today we will learn about the server-side request forgery attack. While enumerating, we discovered the FTP credentials through which we gain access to the server via ssh and the root using the Python library. With that stated, let's get started.</br>
 As is customary, we will begin by scanning the server for open ports using the namp.
+![Placeholder](/forge/forge01.png)
 {{< figure src="/forge01.png" >}}
 We only have two open ports: SSH (OpenSSH) and apache (for the webpage).Let us now examine the webserver.</br> 
 {{< figure src="forge/forge02.png" >}}
