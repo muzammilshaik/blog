@@ -4,7 +4,7 @@ title: "forge"
 description: ""
 tags: ["ftp", "ssh"]
 date: 2022-01-24
-thumbnail: /forge/img.png
+thumbnail: forge.png
 ---
 {{< toc >}}
 
