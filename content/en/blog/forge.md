@@ -1,10 +1,10 @@
 ---
 author: "Muzammil Shaik"
-title: "Forge"
+title: "forge"
 description: ""
 tags: ["ftp", "ssh"]
 date: 2022-01-24
-thumbnail: /forge/img.png
+thumbnail: forge/img.png
 ---
 {{< toc >}}
 
@@ -13,7 +13,7 @@ Today we will learn about the server-side request forgery attack. While enumerat
 As is customary, we will begin by scanning the server for open ports using the namp.
 {{< figure src="forge01.png" >}}
 We only have two open ports: SSH (OpenSSH) and apache (for the webpage).Let us now examine the webserver.</br> 
-{{< figure src="forge/forge02.png" >}}
+{{< figure src="/forge/forge02.png" >}}
 We have a standard website with an image upload option. We can upload images in two ways: one from a local computer and the other from a URL.
 {{< figure src="forge/forge03.png" >}}
 To receive the request from the server to our local system, I had setup the Python server from scratch. So we can be sure the server is sending us the request.
