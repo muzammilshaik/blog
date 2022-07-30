@@ -11,21 +11,19 @@ thumbnail: forge/img.png
 ## Introduction
 Today we will learn about the server-side request forgery attack. While enumerating, we discovered the FTP credentials through which we gain access to the server via ssh and the root using the Python library. With that stated, let's get started.</br>
 As is customary, we will begin by scanning the server for open ports using the namp.
-![Placeholder](/forge/forge01.png)
-![checkout](forge/forge01.png)
 ![forge](forge01.png)
 We only have two open ports: SSH (OpenSSH) and apache (for the webpage).Let us now examine the webserver.</br> 
-{{< figure src="forge/forge02.png" >}}
+![forge](forge02.png)
 We have a standard website with an image upload option. We can upload images in two ways: one from a local computer and the other from a URL.
-{{< figure src="forge/forge03.png" >}}
+![forge](forge03.png)
 To receive the request from the server to our local system, I had setup the Python server from scratch. So we can be sure the server is sending us the request.
-{{< figure src="forge/forge04.png" >}}
+![forge](forge04.png)
 
 ## Enumeration
 While the webserver is operating, let's use the seclist wordlist to run the gobuster for directory listing.
-{{< figure src="forge/forge05.png" >}}
+![forge](forge05.png)
 However, we just have the uploads directory, which redirects /uploads to /upload, and I didn't find much in the directory, so I began the DNS enumeration using the wordlist present in seclist itself.
-{{< figure src="forge/forge06.png" >}}
+![forge](forge06.png)
 I discovered another subdomain admin, however it was only accessible via localhost.
 However, we can send the request from the server to our localhost and then redirect the webserver to the admin page.
 {{< figure src="forge/forge09.png" >}}
