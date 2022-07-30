@@ -12,7 +12,7 @@ DefaultContentLanguageInSubdir = true
     languageName = "English"
     [languages.en.params]
       introTitle = "Hey! I'm Muzammil Shaik"
-      introSubtitle = "24 y/o System Engineer who loves to solve the CTF challangs"
+      introSubtitle = "System Engineer who enjoys solving CTF challenges and working with unix operating systems. "
       introPhoto = "my-pic.jpg"
       logo = "Blog"
 
